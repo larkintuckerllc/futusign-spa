@@ -1,0 +1,23 @@
+// TEMPLATE FOR DISTRIBUTION FOLDER
+{
+  "port": 8080,
+  "database": {
+    "host": "localhost",
+    "database": "DATABASE",
+    "username": "USERNAME",
+    "password": "PASSWORD",
+    "dialect": "mysql",
+    "port": 3306,
+    "define": {
+      "charset": "utf8mb4",
+      "collate": "utf8mb4_general_ci"
+    }
+  },
+  "aws": {
+    "bucket": "BUCKET",
+    "credentials": {
+      "accessKeyId": "ACCESSKEYID",
+      "secretAccessKey": "SECRETACCESSKEY"
+    }
+  }
+}

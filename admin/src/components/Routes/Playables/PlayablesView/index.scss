@@ -1,0 +1,12 @@
+@media (min-width: 768px) and (min-height: 560px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+  #rootHeading {
+    flex-shrink: 0;
+  }
+  #rootSide {
+    display: flex;
+  }
+}

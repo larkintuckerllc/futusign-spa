@@ -1,0 +1,14 @@
+@import "../../../../../bootswatch/_variables.scss";
+#root {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  left: 0px;
+  bottom: 0px;
+  border-top-right-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: $brand-danger;
+}

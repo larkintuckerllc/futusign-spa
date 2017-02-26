@@ -1,0 +1,34 @@
+:global(.btn) {
+  display: block;
+  width: 100%;
+}
+:global(.btn:focus), :global(.btn:active), :global(button:focus), :global(button:active) {
+  outline: none !important;
+}
+:global(.navbar-brand) {
+  padding: 5.5px 15px !important;
+}
+:global(navbar) {
+  margin-bottom: 0px !important;
+}
+:global(.checkbox--tight) {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+:global(.app_thumbnail) {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 768px) and (min-height: 560px) {
+  :global(.btn) {
+    display: inline-block;
+    width: auto;
+  }
+  :global(html), :global(body), :global(#root) {
+    height: 100%;
+  }
+}

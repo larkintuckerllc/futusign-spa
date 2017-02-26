@@ -1,0 +1,13 @@
+#root {
+  display: flex;
+  margin-bottom: 0px;
+  height: 100%;
+  flex-direction: column;
+  background-color: transparent;
+}
+#rootHeading {
+  flex-shrink: 0;
+}
+#rootList {
+  overflow-y: auto;
+}

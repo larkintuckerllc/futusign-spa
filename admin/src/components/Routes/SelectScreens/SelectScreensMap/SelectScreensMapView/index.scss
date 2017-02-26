@@ -1,0 +1,46 @@
+
+@import "../../../../../bootswatch/_variables.scss";
+#root {
+  display: none;
+  border-left: 1px solid $text-color;
+  border-top: 1px solid $text-color;
+  background-color: $gray-light;
+}
+#rootFrame {
+  position: relative;
+  display: inline-block;
+}
+.rootFrameMarker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 0%;
+  top: 50%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #006600;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #837B47;
+  transition: transform 1s;
+}
+.rootFrameMarker:hover {
+  transform: translate(-50%, -50%) scale(2);
+}
+.rootFrameMarkerIcon {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+  background-size: contain;
+  background-position: center;
+}
+@media (min-width: 768px) and (min-height: 560px) {
+  #root {
+    flex-grow: 1;
+    flex-basis: 60%;
+    display: block;
+    overflow: scroll;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "apps": [{
+    "name": "futusign-staging",
+    "script": "index.js",
+    "env": {
+      "NODE_ENV": "staging"
+    }, 
+    "cwd": "/www/sites/futusign-staging/api",
+    "interpreter": "/home/sangaline/.nvm/versions/node/v7.4.0/bin/node"
+  }, {
+    "name": "futusign-production",
+    "script": "index.js",
+    "env": {
+      "NODE_ENV": "production"
+    }, 
+    "cwd": "/www/sites/futusign-production/api",
+    "interpreter": "/home/sangaline/.nvm/versions/node/v7.4.0/bin/node"
+  }]
+}

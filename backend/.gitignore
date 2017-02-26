@@ -1,0 +1,9 @@
+# vim files
+*.swo
+*.swp
+.tern-port
+
+node_modules
+config
+static
+dist

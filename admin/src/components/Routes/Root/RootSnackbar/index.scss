@@ -1,0 +1,17 @@
+@import "../../../../bootswatch/_variables.scss";
+#root {
+  position: fixed;
+  left: 20%;
+  bottom: -80px;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 80px;
+  padding: 15px;
+  background-color: $brand-success;
+  font-weight: bold;
+  transition: transform 1s;
+  text-align: center;
+}

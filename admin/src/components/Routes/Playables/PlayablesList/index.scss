@@ -1,0 +1,11 @@
+@media (min-width: 768px) and (min-height: 560px) {
+  #root {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  #rootList {
+    overflow-y: auto;
+  }
+}
